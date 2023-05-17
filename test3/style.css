@@ -1,0 +1,108 @@
+* {
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6F1F1;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #e0ebf0;
+}
+
+header img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+nav {
+    margin: 0;
+    position: fixed; /* Make the nav fixed to the top */
+    top: 0; /* Set the top position of the nav */
+    left: 0; /* Set the left position of the nav */
+    right: 0; /* Set the right position of the nav */
+    background-color: #c6e0eb;
+    padding: 0;
+    z-index: 1000;
+    box-shadow: 0 0 6px #94a7af;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #105a7c;
+    font-size: 1.1rem;
+    transition-duration: 0.3s;
+    padding: 32px 16px;
+    margin: 0;
+    border-bottom: 2px solid #2b7ea400;
+}
+
+nav a:hover {
+    color: #1f5e7b;
+    background-color: #d7e8ee;
+    border-bottom: 2px solid #2b7da4;
+}
+
+main {
+    padding: 2rem;
+}
+
+#ppddff {
+    display: block;
+    width: 80%;
+    height: 600px; /* Adjust the height as needed */
+    margin: 0 auto; /* This will center the PDF with equal left and right margins */
+  }
+
+fieldset {
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 0 4px #a8a8a8;
+}
+
+section {
+    margin-bottom: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.awards-photo {
+    width: 100%;
+}
